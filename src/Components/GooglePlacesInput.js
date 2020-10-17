@@ -7,7 +7,7 @@ const GooglePlacesInput = (props) => {
   return (
     <GooglePlacesAutocomplete
       query={{
-        key: 'AIzaSyDLvkDf4b-fcko4U-qpDUBEISs2iqzKRvU',
+        key: '',
         language: 'en', // language of the results
       }}
       onPress={(data, details = null) => props.onHandle(data)}
